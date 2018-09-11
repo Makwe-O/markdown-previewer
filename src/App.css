@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.section{
+  border:1px solid black;
+  width:100%;
+  margin:10px;
+  padding:20px;
+}
+.markdown-output{
+  border: 1px solid #ced4da;
+  min-height:500px;
+  border-radius: .25rem;
+  text-align: left;
+  padding: 10px
+}
+
+@media only screen and (max-width: 780px) {
+  .App{
+    flex-direction: column
+  }
+}
