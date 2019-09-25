@@ -17,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "homepage": "https://Makwe-O.github.io/markdown-previewer.github.io",
+    "homepage": "https://Makwe-O.github.io/markdown-previewer",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   }
